@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23010" started-at="2018-04-09T12:02:59Z" finished-at="2018-04-09T12:03:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23010" started-at="2018-04-09T12:02:59Z" finished-at="2018-04-09T12:03:22Z">
+      <class name="com.selenium.testCase.Login">
+        <test-method status="PASS" signature="getLoginHome()[pri:0, instance:com.selenium.testCase.Login@4d1c005e]" name="getLoginHome" duration-ms="6917" started-at="2018-04-09T12:02:59Z" finished-at="2018-04-09T12:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginHome -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.selenium.testCase.Login@4d1c005e]" name="testLogin" duration-ms="467" started-at="2018-04-09T12:03:06Z" depends-on-methods="com.selenium.testCase.Login.getLoginHome" finished-at="2018-04-09T12:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="buyCourse()[pri:0, instance:com.selenium.testCase.Login@4d1c005e]" name="buyCourse" duration-ms="15610" started-at="2018-04-09T12:03:07Z" depends-on-methods="com.selenium.testCase.Login.testLogin" finished-at="2018-04-09T12:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyCourse -->
+      </class> <!-- com.selenium.testCase.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
